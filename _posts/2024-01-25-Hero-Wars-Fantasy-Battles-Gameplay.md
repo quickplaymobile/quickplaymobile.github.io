@@ -4,7 +4,9 @@ date: 2024-01-31 08:00:00 +0000
 categories: [Gaming, Reviews]
 tags: [hero wars, fantasy battles, gameplay]
 ---
+![Desktop View](https://img.youtube.com/vi/CJTq1d8Hpn0/default.jpg){: width="700" height="400" }
 
+# Video Review
 {% include embed/youtube.html id='CJTq1d8Hpn0' %}
 
 # Hero Wars: A Fantasy Battles Experience
