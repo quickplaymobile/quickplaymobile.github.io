@@ -2,7 +2,7 @@
 title: Hero Wars - Fantasy Battles Gameplay
 date: 2024-01-31 08:00:00 +0000
 categories: [Gaming, Reviews]
-tags: [hero wars, fantasy battles, gameplay]     
+tags: [hero wars, fantasy battles, gameplay]
 ---
 
 
