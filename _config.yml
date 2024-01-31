@@ -33,12 +33,7 @@ social:
   name: QuickPlay
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/quickplaymobile # change to your twitter homepage
     - https://youtube.com/@quickplaymobile
-    - https://discord.gg/YSUZbGkn
-    - https://twitter.com/quickplaymobile
-    - https://www.instagram.com/quickplaymobile/
-    - https://www.tiktok.com/@quickplaymobile
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
