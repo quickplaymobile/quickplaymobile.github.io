@@ -1,5 +1,5 @@
 ---
-title: Harry Potter: Magic Awakened Gameplay
+title: "Harry Potter: Magic Awakened Gameplay"
 date: 2024-01-29 08:00:00 +0000
 categories: [Gaming, RPG]
 tags: [harry potter, magic awakened, gameplay, mobile game]
