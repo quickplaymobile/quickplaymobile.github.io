@@ -5,6 +5,7 @@ categories: [Gaming, Reviews]
 tags: [hero wars, fantasy battles, gameplay]     
 ---
 
+
 {% include embed/{youtube}.html id='{CJTq1d8Hpn0}' %}
 
 # Hero Wars: A Fantasy Battles Experience
