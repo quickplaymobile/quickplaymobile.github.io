@@ -1,4 +1,5 @@
 ---
+layout: emulators
 icon: fas fa-desktop
 order: 4
 title: Exploring the Best Android Emulators for Windows and Mac
