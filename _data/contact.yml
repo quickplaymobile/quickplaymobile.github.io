@@ -5,7 +5,7 @@
 
 - type: discord
   icon: "fab fa-discord"
-  url:  "https://discord.gg/YSUZbGkn"
+  url:  "https://discord.gg/euudZZCKYn"
 
 - type: reddit
   icon: "fa-brands fa-reddit-alien"
@@ -14,6 +14,10 @@
 - type: tiktok
   icon: "fa-brands fa-tiktok"
   url: "https://www.tiktok.com/@quickplaymobile"
+
+- type: Instagram
+  icon: "fa-brands fa-instagram"
+  url: "https://www.instagram.com/quickplaymobile/"
 
 - type: rss
   icon: "fas fa-rss"
