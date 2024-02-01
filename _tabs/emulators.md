@@ -1,8 +1,7 @@
 ---
-layout: emulators
 icon: fas fa-desktop
 order: 4
-title: Exploring the Best Android Emulators for Windows and Mac
+title: Best Android Emulators for Windows and Mac
 categories: [Gaming, Reviews]
 tags: [Bluestacks, Nox Player, Memu Play, Andy, Genymotion]
 description: "Finds out the best Android Emulators for Windows and Mac."
