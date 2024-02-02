@@ -5,7 +5,7 @@ date: 2024-01-26 08:00:00 +0000
 categories: [Gaming, Mobile]
 tags: [summoners war, mobile game, strategy]
 image: 
-    path: https://img.youtube.com/vi/Ak3epIbMMcA/hqdefault.jpg
+    path: https://img.youtube.com/vi/Ak3epIbMMcA/maxres2.jpg
     lqip: /assets/img/post_bannerrs/lazy_pixel.png
 description: "Summoners War is not just a game; it's a journey into a world where mystical creatures, magic, and strategy collide. Developed by Com2uS, this mobile RPG has captured the hearts of millions with its addictive gameplay and stunning visuals."
 ---
