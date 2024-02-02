@@ -1,4 +1,5 @@
 ---
+autor: QuickPlay
 title: Top 10 Best Android Emulators for Windows and Mac
 date: 2024-02-02 20:00:00 +0000
 categories: [Emulators]
