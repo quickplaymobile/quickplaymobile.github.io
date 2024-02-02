@@ -6,7 +6,7 @@ categories: [Gaming, Action]
 tags: [undown, gameplay]     
 description: "Explore the thrilling world of Undown Gameplay, a revolutionary action-packed gaming experience that will keep you on the edge of your seat."
 image: 
-    path: https://img.youtube.com/vi/1pI6fBHLKXE/maxres2.jpg
+    path: https://img.youtube.com/vi_webp/1pI6fBHLKXE/maxres2.webp
     lqip: /assets/img/post_bannerrs/lazy_pixel.png
 ---
 

@@ -5,7 +5,7 @@ date: 2024-01-25 08:00:00 +0000
 categories: [Gaming, Reviews]
 tags: [hero wars, fantasy battles, gameplay]
 image: 
-    path: https://img.youtube.com/vi/CJTq1d8Hpn0/maxres2.jpg
+    path: https://img.youtube.com/vi_webp/CJTq1d8Hpn0/maxres2.webp
     lqip: /assets/img/post_bannerrs/lazy_pixel.png
 description: "If you're an avid fan of fantasy-themed games, particularly those involving epic battles and strategic gameplay, then Hero Wars is a title you don't want to miss. Developed by [Developer Name], this game offers a captivating experience that immerses players into a world filled with heroes, villains, and mythical creatures."
 ---

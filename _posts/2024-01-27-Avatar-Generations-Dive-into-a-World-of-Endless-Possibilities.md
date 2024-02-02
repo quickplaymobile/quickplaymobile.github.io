@@ -5,7 +5,7 @@ date: 2024-01-27 08:00:00 +0000
 categories: [Gaming, Indie]
 tags: [avatar generations, gameplay, indie game]
 image: 
-    path: https://img.youtube.com/vi/SOpA61BuYUw/maxres2.jpg
+    path: https://img.youtube.com/vi_webp/SOpA61BuYUw/maxres2.webp
     lqip: /assets/img/post_bannerrs/lazy_pixel.png
 description: "Embark on a journey unlike any other with Avatar Generations, an indie game that redefines the boundaries of creativity and exploration. Developed by [Developer Name], this unique title offers players the chance to create, customize, and control their own avatars in a dynamic and ever-evolving world."
 ---
