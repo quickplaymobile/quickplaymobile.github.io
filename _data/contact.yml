@@ -19,8 +19,8 @@
   icon: "fa-brands fa-instagram"
   url: "https://www.instagram.com/quickplaymobile/"
 
-- type: rss
-  icon: "fas fa-rss"
+# - type: rss
+#   icon: "fas fa-rss"
 
 # Uncomment and complete the url below to enable more contact options
 #
