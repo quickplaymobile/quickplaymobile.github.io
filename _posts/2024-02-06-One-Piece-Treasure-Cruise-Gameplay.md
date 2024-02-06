@@ -1,4 +1,3 @@
-
 ---
 autor: QuickPlay #leave unchanged
 title: One Piece Treasure Cruise Gameplay
