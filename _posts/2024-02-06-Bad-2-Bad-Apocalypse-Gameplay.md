@@ -1,6 +1,6 @@
 ---
 autor: QuickPlay #leave unchanged
-title: Bad 2 Bad: Apocalypse Gameplay
+title: "Bad 2 Bad: Apocalypse Gameplay"
 date: 2024-02-06 11:00:00
 categories: [Gaming, Action]
 tags: [bad 2 bad, apocalypse, gameplay, action, mobile gaming]

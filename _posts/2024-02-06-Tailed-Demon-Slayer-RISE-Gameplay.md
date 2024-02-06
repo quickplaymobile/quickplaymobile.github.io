@@ -1,6 +1,6 @@
 ---
 autor: QuickPlay #leave unchanged
-title: Tailed Demon Slayer: RISE Gameplay
+title: "Tailed Demon Slayer: RISE Gameplay"
 date: 2024-02-06 10:00:00
 categories: [Gaming, Action RPG]
 tags: [tailed demon slayer, rise, gameplay, action rpg, mobile gaming]

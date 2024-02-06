@@ -1,6 +1,6 @@
 ---
 autor: QuickPlay #leave unchanged
-title: Dark Steel: Fighting Games Gameplay
+title: "Dark Steel: Fighting Games Gameplay"
 date: 2024-02-06 14:00:00
 categories: [Gaming, Fighting]
 tags: [dark steel, fighting games, gameplay, mobile gaming]
