@@ -10,7 +10,7 @@ image:
 description: "Step into the arena and unleash your martial prowess in Dark Steel: Fighting Games, an adrenaline-pumping mobile game that challenges you to prove your skills in intense one-on-one combat. Explore its thrilling gameplay, diverse roster of fighters, and how to dominate the competition on both mobile and PC with emulators."
 ---
 
-Dark Steel: Fighting Games offers players a thrilling experience where they can engage in fierce one-on-one battles against skilled opponents in dynamic arenas. Developed for mobile platforms, this game delivers fast-paced action and strategic depth, making it a must-play for fans of fighting games.
+Dark Steel : Fighting Games offers players a thrilling experience where they can engage in fierce one-on-one battles against skilled opponents in dynamic arenas. Developed for mobile platforms, this game delivers fast-paced action and strategic depth, making it a must-play for fans of fighting games.
 
 {% include embed/youtube.html id='SOGv1p-Y2fs' %}
 
