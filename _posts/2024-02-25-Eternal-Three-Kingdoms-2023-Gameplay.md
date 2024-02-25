@@ -3,7 +3,7 @@ autor: QuickPlay #leave unchanged
 title: "Eternal Three Kingdoms (2023) Gameplay"
 date: 2024-02-25 05:00:00
 categories: [Gaming, Strategy]
-tags: [eternal three kingdoms, 2023, gameplay, strategy, mobile gaming]
+tags: [eternal three kingdoms, gameplay, strategy, mobile gaming]
 image: 
     path: https://img.youtube.com/vi_webp/mRDCK5SKHdQ/maxres2.webp 
     lqip: /assets/img/post_bannerrs/lazy_pixel.png #leave unchanged
