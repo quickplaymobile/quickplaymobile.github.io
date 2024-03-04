@@ -19,6 +19,10 @@
   icon: "fa-brands fa-instagram"
   url: "https://www.instagram.com/quickplaymobile/"
 
+- type: Sitemap
+  icon: "fa-solid fa-sitemap"
+  url: "https://quickplaymobile.github.io/sitemap.xml"
+
 # - type: rss
 #   icon: "fas fa-rss"
 
