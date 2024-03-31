@@ -1,7 +1,7 @@
 ---
 autor: QuickPlay #leave unchanged
 title: "Myths of Moonrise Gameplay"
-date: 2024-03-31 02:00:00
+date: 2024-03-31 02:55:00
 categories: [Gaming, Adventure]
 tags: [myths of moonrise, gameplay, mobile gaming, adventure]
 image: 

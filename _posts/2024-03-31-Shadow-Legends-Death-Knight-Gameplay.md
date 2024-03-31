@@ -1,7 +1,7 @@
 ---
 autor: QuickPlay #leave unchanged
 title: "Shadow Legends: Death Knight Gameplay"
-date: 2024-03-31 04:00:00
+date: 2024-03-31 04:20:00
 categories: [Gaming, RPG]
 tags: [shadow legends, death knight, rpg, gameplay, mobile gaming]
 image: 

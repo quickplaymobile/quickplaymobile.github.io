@@ -1,7 +1,7 @@
 ---
 autor: QuickPlay #leave unchanged
 title: "Isekai: Slow Life Gameplay"
-date: 2024-03-31 08:00:00
+date: 2024-03-31 08:29:00
 categories: [Gaming, RPG]
 tags: [isekai, slow life, gameplay, mobile gaming, rpg]
 image: 

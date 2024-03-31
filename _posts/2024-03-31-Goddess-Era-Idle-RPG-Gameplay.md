@@ -1,7 +1,7 @@
 ---
 autor: QuickPlay #leave unchanged
 title: "Goddess Era: Idle RPG Gameplay"
-date: 2024-03-31 07:00:00
+date: 2024-03-31 07:33:00
 categories: [Gaming, RPG]
 tags: [goddess era, idle rpg, gameplay, mobile gaming, rpg]
 image: 
