@@ -1,6 +1,6 @@
 ---
 author: QuickPlay
-title: "2024-04-22-Stumble-Guys-Gameplay"
+title: "Stumble Guys Gameplay"
 date: 2024-04-22 00:00:00
 categories: [action, multiplayer]
 tags: [casual, mobile, gameplay, stumble guys, battle royale]
