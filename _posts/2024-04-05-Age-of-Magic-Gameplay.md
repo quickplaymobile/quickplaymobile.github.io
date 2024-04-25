@@ -1,7 +1,7 @@
 ---
 autor: QuickPlay #leave unchanged
 title: "Age of Magic Gameplay"
-date: 2024-04-05 01:00:00
+date: 2024-04-05 02:00:00
 categories: [Gaming, RPG]
 tags: [age of magic, gameplay, mobile gaming, rpg]
 image: 
@@ -28,4 +28,3 @@ Don't forget, you can also enjoy Age of Magic on your PC using emulators. Check 
 
 ## Conclusion
 Age of Magic offers an immersive RPG experience for fans of fantasy and adventure. With its captivating gameplay, stunning visuals, and deep strategic elements, it's sure to keep you engaged as you embark on an epic quest to conquer the forces of darkness and restore balance to the world.
-
