@@ -1,6 +1,6 @@
 ---
 author: QuickPlay
-title: "Plants-vs-Zombies-Gameplay"
+title: "Plants vs Zombies Gameplay"
 date: 2024-04-29 03:00:00
 categories: [strategy, tower defense]
 tags: [mobile game, plants vs zombies, gameplay, strategy]
