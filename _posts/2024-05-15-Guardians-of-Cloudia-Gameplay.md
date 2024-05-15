@@ -14,7 +14,7 @@ description: "Discover the exciting gameplay of Guardians of Cloudia and its uni
 
 ## Introduction to Guardians of Cloudia
 
-Guardians of Cloudia is an enchanting mobile game that takes players on an epic journey through a magical world filled with adventure, mystery, and strategic challenges. Developed by <Developer Name>, this game offers an immersive experience with stunning visuals, dynamic combat, and a captivating storyline.
+Guardians of Cloudia is an enchanting mobile game that takes players on an epic journey through a magical world filled with adventure, mystery, and strategic challenges. this game offers an immersive experience with stunning visuals, dynamic combat, and a captivating storyline.
 
 ## Explore the World of Cloudia
 
