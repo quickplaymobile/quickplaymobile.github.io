@@ -1,7 +1,7 @@
 ---
 author: QuickPlay
 title: DRAGON BALL LEGENDS Gameplay
-date: 2024-05-08 01:22:33
+date: 2024-06-17 01:22:33
 categories: [Gaming, Mobile Gaming]
 tags: [dragon ball legends, gameplay, mobile gaming, action RPG, professional gamers]
 image: 
