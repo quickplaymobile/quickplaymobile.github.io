@@ -1,7 +1,7 @@
 ---
 author: QuickPlay
 title: Guild of Guardians Gameplay
-date: 2024-05-08 01:22:33
+date: 2024-07-24 01:22:33
 categories: [Gaming, Mobile Gaming]
 tags: [guild of guardians, gameplay, mobile gaming, rpg, professional gamers, action rpg, blockchain gaming]
 image: 
