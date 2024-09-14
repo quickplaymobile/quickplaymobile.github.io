@@ -14,7 +14,7 @@ description: "Immerse yourself in the vibrant world of Blue Archive, where you l
 
 ## Introduction to Blue Archive
 
-Blue Archive is a unique mobile MMORPG that blends tactical combat with engaging storytelling, set in a colorful world filled with charming characters. Developed by Nexon, this game places players in the role of a teacher at an academy for gifted students, where you guide your students through challenging missions and uncover the mysteries of the academy. With its anime-inspired visuals and rich gameplay, Blue Archive has quickly become a favorite among RPG enthusiasts.
+Blue Archive is a unique mobile RPG that blends tactical combat with engaging storytelling, set in a colorful world filled with charming characters. Developed by Nexon, this game places players in the role of a teacher at an academy for gifted students, where you guide your students through challenging missions and uncover the mysteries of the academy. With its anime-inspired visuals and rich gameplay, Blue Archive has quickly become a favorite among RPG enthusiasts.
 
 ## Tactical Combat with a Twist
 
