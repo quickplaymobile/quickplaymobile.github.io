@@ -1,7 +1,7 @@
 ---
 author: QuickPlay
 title: Battle Ranker in Another World Gameplay
-date: 2024-10-15 01:22:33
+date: 2024-10-14 01:22:33
 categories: [Gaming, Mobile Gaming]
 tags: [battle ranker, another world, mobile gaming, rpg, action, strategy, isekai]
 image: 
