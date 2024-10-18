@@ -8,23 +8,14 @@
   allowfullscreen
 ></iframe> -->
 
+<div class="youtube-player" data-id="{{ include.id }}"></div>
+
 <!-- Quickplaymobile- flexible -->
 <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4865920432858333" data-ad-slot="3279063828"
   data-ad-format="auto" data-full-width-responsive="true"></ins>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
-<div class="pre-video">
-  <div class="sub-youtube">
-    Youtube channel.
-    <a href="https://www.youtube.com/@quickplaymobile?sub_confirmation=1" target="_blank"
-      class="sub-youtube-link">Subscribe</a>
-  </div>
-  <!-- <div class="gameplay emulator">Bellow you can watch 10 minutes of uncut and unedited gameplay.</div> -->
-</div>
-
-<div class="youtube-player" data-id="{{ include.id }}"></div>
 
 <!-- Quickplaymobile- flexible -->
 <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4865920432858333" data-ad-slot="3279063828"
@@ -70,37 +61,6 @@
   document.addEventListener('DOMContentLoaded', initYouTubeVideos);
 </script>
 <style>
-  .emulator {
-    background-color: #101010;
-    padding: 7px;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  .sub-youtube {
-    background-color: #f50c16;
-    padding: 20px;
-    color: white;
-    border-radius: 5px;
-    box-shadow: 0px 0px 0px 4px #0d0d0e;
-    border: 1px solid #ff000f;
-  }
-
-  .sub-youtube-link {
-    float: right;
-    background-color: #ffffff;
-    padding: 4px;
-    color: #000000;
-    /* margin: 5px; */
-    font-size: 18px;
-    border-radius: 8px;
-    margin-top: -4px;
-    max-height: 40px;
-    border: 1px solid black;
-    box-shadow: 0px 0px 0px 2px black;
-  }
-
   .youtube-player {
     position: relative;
     padding-bottom: 56.25%;
@@ -145,15 +105,14 @@
   }
 
   .youtube-player .play {
-    height: 150px;
-    width: 150px;
-    border-radius: 5px;
+    height: 48px;
+    width: 68px;
     left: 50%;
     top: 50%;
-    margin-left: -77px;
-    margin-top: -71px;
+    margin-left: -34px;
+    margin-top: -24px;
     position: absolute;
-    background: url('https://quickplaymobile.github.io/assets/img/play.gif') no-repeat;
+    background: url('https://quickplaymobile.github.io/assets/img/yt.png') no-repeat;
     cursor: pointer;
   }
 </style>
