@@ -3,26 +3,6 @@
   icon: "fab fa-youtube"
   url:  "https://www.youtube.com/@quickplaymobile"
 
-- type: discord
-  icon: "fab fa-discord"
-  url:  "https://discord.gg/euudZZCKYn"
-
-- type: reddit
-  icon: "fa-brands fa-reddit-alien"
-  url: "https://www.reddit.com/r/quickplaymobile/"
-
-- type: tiktok
-  icon: "fa-brands fa-tiktok"
-  url: "https://www.tiktok.com/@quickplaymobile"
-
-- type: Twitter
-  icon: "fa-brands fa-twitter"
-  url: "https://twitter.com/quickplaymobile"
-
-- type: Instagram
-  icon: "fa-brands fa-instagram"
-  url: "https://www.instagram.com/quickplaymobile/"
-
 - type: Sitemap
   icon: "fa-solid fa-sitemap"
   url: "https://quickplaymobile.github.io/sitemap.xml"
