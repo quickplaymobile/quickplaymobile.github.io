@@ -8,8 +8,6 @@
   allowfullscreen
 ></iframe> -->
 
-<div class="youtube-player" data-id="{{ include.id }}"></div>
-
 <script>
   /*
    * Light YouTube Embeds by @labnol
@@ -47,6 +45,29 @@
   document.addEventListener('DOMContentLoaded', initYouTubeVideos);
 </script>
 <style>
+  .subscribe-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 0 20px;
+    background-color: #FF0000;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .subscribe-button:hover {
+    background-color: #CC0000;
+  }
+
   .youtube-player {
     position: relative;
     padding-bottom: 56.25%;
@@ -102,3 +123,8 @@
     cursor: pointer;
   }
 </style>
+
+<a href="https://www.youtube.com/@quickplaymobile?sub_confirmation=1" class="subscribe-button" target="_blank"
+  rel="noopener noreferrer">Subscribe on our YouTube Channel for more content!</a>
+
+<div class="youtube-player" data-id="{{ include.id }}"></div>
