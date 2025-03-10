@@ -16,7 +16,7 @@ platforms:
 
   - type: Whatsapp
     icon: "fab fa-whatsapp"
-    link: "whatsapp://send?text=URL"
+    link: "whatsapp://send?url=URL&text=TITLE"
 
   # Uncomment below if you need to.
   #
