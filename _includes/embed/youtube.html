@@ -7,7 +7,30 @@
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen
 ></iframe> -->
-
+<script>
+  let timerInterval;
+  Swal.fire({
+    title: "Auto close alert!",
+    html: "I will close in <b></b> milliseconds.",
+    timer: 2000,
+    timerProgressBar: true,
+    didOpen: () => {
+      Swal.showLoading();
+      const timer = Swal.getPopup().querySelector("b");
+      timerInterval = setInterval(() => {
+        timer.textContent = `${Swal.getTimerLeft()}`;
+      }, 100);
+    },
+    willClose: () => {
+      clearInterval(timerInterval);
+    }
+  }).then((result) => {
+    /* Read more about handling dismissals below */
+    if (result.dismiss === Swal.DismissReason.timer) {
+      console.log("I was closed by the timer");
+    }
+  });
+</script>
 <script>
   /*
    * Light YouTube Embeds by @labnol
@@ -45,7 +68,7 @@
   document.addEventListener('DOMContentLoaded', initYouTubeVideos);
 </script>
 <style>
-  .subscribe-button {
+  /* .subscribe-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +93,7 @@
 
   .subscribe-button:hover {
     background-color: black;
-  }
+  } */
 
   .youtube-player {
     position: relative;
@@ -128,7 +151,7 @@
   }
 </style>
 
-<a href="https://www.youtube.com/@quickplaymobile?sub_confirmation=1" class="subscribe-button" target="_blank"
-  rel="noopener noreferrer">Tap to subscribe!</a>
+<!-- <a href="https://www.youtube.com/@quickplaymobile?sub_confirmation=1" class="subscribe-button" target="_blank"
+  rel="noopener noreferrer">Tap to subscribe!</a> -->
 
 <div class="youtube-player" data-id="{{ include.id }}"></div>
