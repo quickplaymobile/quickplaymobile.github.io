@@ -62,14 +62,14 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.85);
     color: white;
+    display: none;
+    /* Default hidden */
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 20px;
     z-index: 9999;
-    display: none;
-    /* Default hidden */
   }
 
   #alertBox button {
@@ -99,31 +99,36 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const alertBox = document.getElementById("alertBox");
-    const countdownElement = document.getElementById("countdown");
-    const subscribed = localStorage.getItem("subscribed");
+    try {
+      const alertBox = document.getElementById("alertBox");
+      const countdownElement = document.getElementById("countdown");
+      const subscribeButton = document.getElementById("subscribeButton");
+      const subscribed = localStorage.getItem("subscribed");
 
-    if (subscribed === "true") {
-      return; // Exit early if already subscribed
-    }
-
-    alertBox.style.display = "flex"; // Show alert box if not subscribed
-
-    let countdown = 60;
-    const interval = setInterval(() => {
-      countdown--;
-      countdownElement.textContent = countdown;
-      if (countdown <= 0) {
-        clearInterval(interval);
-        alertBox.style.display = "none";
+      if (subscribed === "true") {
+        return; // Exit early if already subscribed
       }
-    }, 1000);
 
-    document.getElementById("subscribeButton").addEventListener("click", function () {
-      localStorage.setItem("subscribed", "true");
-      alertBox.style.display = "none";
-      window.open("https://www.youtube.com/@quickplaymobile?sub_confirmation=1", "_blank");
-    });
+      alertBox.style.display = "flex"; // Show alert box if not subscribed
+
+      let countdown = 60;
+      const interval = setInterval(() => {
+        countdown--;
+        countdownElement.textContent = countdown;
+        if (countdown <= 0) {
+          clearInterval(interval);
+          alertBox.style.display = "none";
+        }
+      }, 1000);
+
+      subscribeButton.addEventListener("click", function () {
+        localStorage.setItem("subscribed", "true");
+        alertBox.style.display = "none";
+        window.open("https://www.youtube.com/@quickplaymobile?sub_confirmation=1", "_blank");
+      });
+    } catch (error) {
+      console.error("Error in subscribe alert script:", error);
+    }
   });
 </script>
 <script>
