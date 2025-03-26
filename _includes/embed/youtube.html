@@ -10,9 +10,11 @@
 <script>
   let timerInterval;
   Swal.fire({
-    title: "Auto close alert!",
-    html: "I will close in <b></b> milliseconds.",
-    timer: 2000,
+    title: "Help us grow!",
+    html: "We put our hearts into every video just for you! 💖 A small tap on Subscribe means the world to us. 🌍✨ If you'd rather wait, no worries—just 60 seconds! ⏳ But we'd love to have you with us. 🥰",
+    timer: 60000,
+    confirmButtonText: '<a href="https://www.youtube.com/@quickplaymobile?sub_confirmation=1"  target="_blank" rel="noopener noreferrer">Subscribe!</a>',
+    allowOutsideClick: false,
     timerProgressBar: true,
     didOpen: () => {
       Swal.showLoading();
