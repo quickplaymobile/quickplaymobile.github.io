@@ -62,14 +62,14 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.85);
     color: white;
-    display: none;
-    /* Hide by default to prevent flash */
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 20px;
     z-index: 9999;
+    display: none;
+    /* Default hidden */
   }
 
   #alertBox button {
@@ -100,14 +100,16 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const alertBox = document.getElementById("alertBox");
-    if (localStorage.getItem("subscribed") === "true") {
-      return;
+    const countdownElement = document.getElementById("countdown");
+    const subscribed = localStorage.getItem("subscribed");
+
+    if (subscribed === "true") {
+      return; // Exit early if already subscribed
     }
 
-    alertBox.style.display = "flex"; // Show only if necessary
+    alertBox.style.display = "flex"; // Show alert box if not subscribed
 
     let countdown = 60;
-    const countdownElement = document.getElementById("countdown");
     const interval = setInterval(() => {
       countdown--;
       countdownElement.textContent = countdown;
