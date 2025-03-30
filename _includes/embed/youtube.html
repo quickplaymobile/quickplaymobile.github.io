@@ -88,6 +88,19 @@
     margin-top: 10px;
   }
 </style>
+
+<div id="alertBox">
+  <h1>We have a message for you!</h1>
+  <p>We put our hearts into every video just for you! 💖<br>
+    A small tap on Subscribe means the world to us. 🌍✨<br>
+    If you'd rather wait, no worries—just <span id="countdown">60</span> seconds! ⏳<br>
+    But we'd love to have you with us. 🥰
+  </p>
+  <button id="subscribeButton">Subscribe on YouTube!</button>
+</div>
+
+<div class="youtube-player" data-id="{{ include.id }}"></div>
+
 <script>
   function showPopup() {
       if (localStorage.getItem("subscribed") !== "true") {
@@ -111,11 +124,14 @@
   document.addEventListener("DOMContentLoaded", function() {
       setTimeout(showPopup, 100); // Delay slightly to prevent flicker
 
-      document.getElementById("subscribeButton").addEventListener("click", function() {
-          localStorage.setItem("subscribed", "true");
-          document.getElementById("alertBox").style.display = "none";
-          window.open("https://www.youtube.com/@quickplaymobile?sub_confirmation=1", "_blank");
-      });
+      let subscribeButton = document.getElementById("subscribeButton");
+      if (subscribeButton) {
+          subscribeButton.addEventListener("click", function() {
+              localStorage.setItem("subscribed", "true");
+              document.getElementById("alertBox").style.display = "none";
+              window.open("https://www.youtube.com/@quickplaymobile?sub_confirmation=1", "_blank");
+          });
+      }
 
       setInterval(() => {
           if (localStorage.getItem("subscribed") !== "true") {
@@ -161,14 +177,3 @@
 
   document.addEventListener('DOMContentLoaded', initYouTubeVideos);
 </script>
-
-<div id="alertBox">
-  <h1>We have a message for you!</h1>
-  <p>We put our hearts into every video just for you! 💖<br>
-    A small tap on Subscribe means the world to us. 🌍✨<br>
-    If you'd rather wait, no worries—just <span id="countdown">60</span> seconds! ⏳<br>
-    But we'd love to have you with us. 🥰
-  </p>
-  <button id="subscribeButton">Subscribe on YouTube!</button>
-</div>
-<div class="youtube-player" data-id="{{ include.id }}"></div>
