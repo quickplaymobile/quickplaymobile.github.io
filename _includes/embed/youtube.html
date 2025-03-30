@@ -62,14 +62,22 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.90);
     color: white;
-    display: none;
-    /* Hide by default */
+    visibility: hidden; /* Evită flash-ul */
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 20px;
     z-index: 9999;
+    transition: visibility 0s linear 0.3s, opacity 0.3s ease-in-out;
+    opacity: 0;
+  }
+
+  #alertBox.active {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
   }
 
   #alertBox button {
@@ -100,35 +108,43 @@
 </div>
 
 <div class="youtube-player" data-id="{{ include.id }}"></div>
-{% raw %}
 <script>
+  let countdown = 60;
+  let interval;
+
   function showPopup() {
       if (localStorage.getItem("subscribed") !== "true") {
-          document.getElementById("alertBox").style.display = "flex";
+          let alertBox = document.getElementById("alertBox");
+          alertBox.classList.add("active");
 
-          let countdown = 60;
-          const countdownElement = document.getElementById("countdown");
+          let countdownElement = document.getElementById("countdown");
           countdownElement.textContent = countdown;
 
-          let interval = setInterval(() => {
+          interval = setInterval(() => {
               countdown--;
               countdownElement.textContent = countdown;
               if (countdown <= 0) {
                   clearInterval(interval);
-                  document.getElementById("alertBox").style.display = "none";
+                  closePopup();
               }
           }, 1000);
       }
   }
 
-  document.addEventListener("DOMContentLoaded", function() {
-      setTimeout(showPopup, 100); // Delay slightly to prevent flicker
+  function closePopup() {
+      let alertBox = document.getElementById("alertBox");
+      alertBox.classList.remove("active");
+      clearInterval(interval);
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(showPopup, 500);
 
       let subscribeButton = document.getElementById("subscribeButton");
       if (subscribeButton) {
-          subscribeButton.addEventListener("click", function() {
+          subscribeButton.addEventListener("click", function () {
               localStorage.setItem("subscribed", "true");
-              document.getElementById("alertBox").style.display = "none";
+              closePopup();
               window.open("https://www.youtube.com/@quickplaymobile?sub_confirmation=1", "_blank");
           });
       }
@@ -137,10 +153,10 @@
           if (localStorage.getItem("subscribed") !== "true") {
               showPopup();
           }
-      }, 5 * 60 * 1000); // Show every 5 minutes if not subscribed
+      }, 5 * 60 * 1000);
   });
 </script>
-{% endraw %}
+
 <script>
   /*
    * Light YouTube Embeds by @labnol
