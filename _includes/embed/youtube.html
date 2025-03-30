@@ -100,7 +100,7 @@
 </div>
 
 <div class="youtube-player" data-id="{{ include.id }}"></div>
-
+{% raw %}
 <script>
   function showPopup() {
       if (localStorage.getItem("subscribed") !== "true") {
@@ -140,7 +140,7 @@
       }, 5 * 60 * 1000); // Show every 5 minutes if not subscribed
   });
 </script>
-
+{% endraw %}
 <script>
   /*
    * Light YouTube Embeds by @labnol
