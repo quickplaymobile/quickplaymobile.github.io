@@ -8,6 +8,7 @@ image:
     path: https://img.youtube.com/vi_webp/Zfqf9_zPcJo/maxres2.webp
     lqip: /assets/img/post_bannerrs/lazy_pixel.png
 description: "Buy Feature Egypt Bonanza on bc.game! BIG win, full rells."
+pin: true
 ---
 
 # 🎰 Egypt Bonanza on BC.Game – Play Slots Anytime, Anywhere (Yes, Even on Mobile!)
